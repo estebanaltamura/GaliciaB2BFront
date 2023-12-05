@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.appContainer {
+  max-width: 1280px;
+  min-height: 100vh;
+  margin: auto;
+  padding: 0;
+}
+
+@media (min-width: 960px) {
+  .appContainer {
+    padding: 0 30px;
+  }
+}
+
+.css-7nr029-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 10px 0 10px 10px !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 10px 0 10px 10px !important;
+}

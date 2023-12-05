@@ -1,0 +1,14 @@
+.opportunityCard {
+  margin: 0 auto;
+  width: 328px;
+  height: 557px;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.mySwiper {
+  overflow-y: hidden;
+  max-height: '100%';
+  height: 100%;
+}
