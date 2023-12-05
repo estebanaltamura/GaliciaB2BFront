@@ -23,10 +23,13 @@ export const OpportunityCardContainer = ({ value, index, data }) => {
         'No results'
       ) : (
         <Swiper
-          navigation={true}
+          navigation={false}
           modules={[Navigation]}
-          slidesPerView={1}
           className='mySwiper'
+          spaceBetween={15} // Espacio entre slides
+          slidesPerView={1.2} // Muestra 1 slide y la mitad del siguiente
+          centeredSlides={false} // No centra los slides, mostrando una parte del próximo
+          loop={true}
         >
           {data.ofertas.map((opportunityData, index) => (
             <SwiperSlide key={index}>
