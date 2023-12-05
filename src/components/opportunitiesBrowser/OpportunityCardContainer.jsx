@@ -27,7 +27,7 @@ export const OpportunityCardContainer = ({ value, index, data }) => {
           modules={[Navigation]}
           className='mySwiper'
           spaceBetween={15} // Espacio entre slides
-          slidesPerView={1.2} // Muestra 1 slide y la mitad del siguiente
+          slidesPerView={1.1} // Muestra 1 slide y la mitad del siguiente
           centeredSlides={false} // No centra los slides, mostrando una parte del próximo
           loop={true}
         >
