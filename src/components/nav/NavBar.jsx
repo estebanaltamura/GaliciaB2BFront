@@ -58,6 +58,7 @@ export const NavBar = () => {
             color='inherit'
             aria-label='menu'
             onClick={handleMenu}
+            margin='0'
           >
             <MenuIcon sx={{ color: 'black' }} />
           </IconButton>
@@ -109,7 +110,12 @@ export const NavBar = () => {
             </Button>
           </>
         )}
-        <Box component={NavLink} to='/home' sx={{ color: 'black' }}>
+        <Box
+          margin='50px'
+          component={NavLink}
+          to='/home'
+          sx={{ color: 'black' }}
+        >
           LOGO
         </Box>
         {!isDesktop && (

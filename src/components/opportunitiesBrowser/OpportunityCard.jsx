@@ -38,7 +38,7 @@ export const OpportunityCard = () => {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card width='328' height='557px'>
       <CardMedia
         component='img'
         height='194'
