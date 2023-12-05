@@ -64,8 +64,10 @@ export const OpportunityCard = () => {
         }
         subheader={
           <Box display='flex' alignItems='center'>
-            <StarRateIcon color='action' />
-            <Typography variant='subtitle1'>4.5</Typography>{' '}
+            <StarRateIcon color='action' sx={{ marginRight: '4px' }} />
+            <Typography variant='subtitle1' sx={{ marginRight: '10px' }}>
+              4.5
+            </Typography>
             <LocationOnIcon color='action' />
             <Typography variant='body2' color='textSecondary'>
               Ciudad, País
@@ -81,8 +83,25 @@ export const OpportunityCard = () => {
           mussels, if you like.
         </Typography>
       </CardContent>
-
-      <Button variant='contained'>ssd</Button>
+      <Typography
+        sx={{ textAlign: 'center', fontWeight: '600', marginBottom: '15px' }}
+      >
+        Ver detalle
+      </Typography>
+      <Button
+        variant='contained'
+        sx={{
+          borderRadius: '50px',
+          width: '292px',
+          heigth: '48px',
+          backgroundColor: '#E94335',
+          textTransform: 'none',
+          fontSize: '16px',
+          marginBottom: '10px',
+        }}
+      >
+        Postularme
+      </Button>
 
       <CardActions disableSpacing>
         <IconButton aria-label='add to favorites'>

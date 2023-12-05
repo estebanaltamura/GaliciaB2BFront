@@ -132,6 +132,7 @@ export const NavBar = () => {
             }}
             open={open}
             onClose={handleClose}
+            sx={{ marginTop: '8px', marginLeft: '-16px' }} //Buscar forma adecuada
           >
             {menuItems.map((menuItem, index) => (
               <MenuItem
